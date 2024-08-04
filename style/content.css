@@ -1,0 +1,99 @@
+.content{
+    grid-area: content;
+    display: grid;
+    column-gap: 15px;
+    row-gap: 40px;
+    margin: 24px 20px;
+}
+.video{
+    border-radius: 0px;
+    transition: all 0.15s;
+}
+.video:hover{
+    background-color: rgb(56, 56, 56);
+    box-shadow: 0px 0px 0px 10px rgb(56, 56, 56);
+    border-radius: 8px;
+}
+.thumbnail{
+    width: 100%;
+    border-radius: 10px;
+    margin: 10px 0px 20px 0px;
+    display: block;
+    cursor: pointer;
+    transition: border-radius 0.3s;
+}
+.video-info{
+    display: grid;
+    grid-template-columns: 36px 1fr;
+    column-gap: 10px;
+}
+.logo{
+    width: 100%;
+    border-radius: 18px;
+    cursor: pointer;
+}
+.video-title{
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 10px;
+    display: block;
+    cursor: pointer;
+}
+.video-author, .video-stats{
+    color: rgb(165, 165, 165);
+    font-size: 14px;  
+    cursor: pointer;
+    display: block;
+}
+.video-author{
+    margin-bottom: 5px;
+}
+.video-author:hover{
+    color: whitesmoke;
+}
+.sponser{
+    font-weight: 600;
+    font-size: 12px;
+    display: inline;
+    margin-right: 1px;
+    cursor: pointer;
+}
+.sponser2{
+    color: gray;
+    font-size: 14px;
+    display: inline;
+    cursor: pointer;
+    display: inline;
+}
+.sponser-button{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+
+}
+.sponser-watch{
+    height: 34px;
+    background-color: #0f0f0f;
+    color: rgb(0, 157, 255);
+    border: 0.2mm;
+    border-style: solid;
+    border-color: rgb(56, 56, 56);
+    border-radius: 17px;
+    cursor: pointer;
+}
+.sponser-watch:hover{
+    background-color: rgba(0, 157, 255, 0.35);
+    border: none;
+}
+.sponser-play{
+    height: 34px;
+    background-color: rgba(0, 157, 255, 0.2);
+    color: rgb(0, 157, 255);
+    border: none;
+    border-radius: 17px;
+    cursor: pointer;
+}
+.sponser-play:hover{
+    background-color: rgba(0, 157, 255, 0.35);
+}
